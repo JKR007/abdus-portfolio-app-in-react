@@ -1,0 +1,73 @@
+.home-page__avatar {
+  padding-top: 5em;
+  border-radius: 30%;
+  display: block;
+  margin: 25px auto;
+}
+
+.home-page__banner-text {
+  background-color: black;
+  opacity: 0.8;
+  width: 75%;
+  margin: auto;
+  border-radius: 5%;
+  padding: 10px;
+}
+
+.home-page__banner-text h1 {
+  font-weight: bold;
+  font-size: 60px;
+  width: 70%;
+  margin: 20px auto;
+  background: #FEAC5E;
+  background: -webkit-linear-gradient(to right, #4BC0C8, #C779D0, #FEAC5E);
+  background: linear-gradient(to right, #4BC0C8, #C779D0, #FEAC5E);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.home-page__banner-text hr {
+  border-top: 5px dotted white;
+  width: 50%;
+  margin: 15px auto;
+}
+
+.home-page__banner-text p {
+  font-size: 21px;
+  padding: 1em;
+  width: 90%;
+  margin: auto;
+  color: white;
+  /* background: #FEAC5E;
+  background: -webkit-linear-gradient(to right, #4BC0C8, #C779D0, #FEAC5E);
+  background: linear-gradient(to right, #4BC0C8, #C779D0, #FEAC5E);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; */
+}
+
+.home-page__grid {
+  background: #FEAC5E;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #4BC0C8, #C779D0, #FEAC5E);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #4BC0C8, #C779D0, #FEAC5E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  top: 0;
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+}
+
+.home-page__social-links {
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+  margin: auto;
+  padding: 5px;
+}
+
+.home-page__social-links i {
+  color: white;
+  font-size: 5em;
+  padding: 8px;
+}
