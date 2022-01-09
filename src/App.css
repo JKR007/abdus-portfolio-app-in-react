@@ -1,0 +1,33 @@
+.layout-header {
+  background: #FEAC5E;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #4BC0C8, #C779D0, #FEAC5E);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #4BC0C8, #C779D0, #FEAC5E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.layout-header a {
+  font-size: 15px;
+}
+
+.mdl-layout__drawer {
+  background: #FEAC5E !important;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #4BC0C8, #C779D0, #FEAC5E) !important;  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #4BC0C8, #C779D0, #FEAC5E) !important; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.mdl-layout__drawer-button i {
+  font-size: 25px;
+}
+
+.mdl-layout__drawer .mdl-navigation__link {
+  color: white !important;
+  font-size: 15px;
+}
+
+.mdl-layout__drawer .mdl-navigation__link:hover {
+  color: black !important;
+}
+
+.mdl-layout-title {
+  font-size: 25px;
+  color: white;
+}
