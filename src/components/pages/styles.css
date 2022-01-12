@@ -7,20 +7,21 @@
   margin: 25px auto;
 }
 
-.home-page__banner-text {
+.home-page__banner {
   background-color: black;
   opacity: 0.8;
-  width: 75%;
+  width: 65%;
   margin: auto;
   border-radius: 5%;
   padding: 10px;
 }
 
-.home-page__banner-text h1 {
+.home-page__banner h1 {
   font-weight: bold;
-  font-size: 60px;
+  font-size: 50px;
   width: 70%;
   margin: 20px auto;
+  text-align: center;
   background: #FEAC5E;
   background: -webkit-linear-gradient(to right, #4BC0C8, #C779D0, #FEAC5E);
   background: linear-gradient(to right, #4BC0C8, #C779D0, #FEAC5E);
@@ -29,14 +30,15 @@
   -webkit-text-fill-color: transparent;
 }
 
-.home-page__banner-text hr {
+.home-page__banner hr {
   border-top: 5px dotted white;
   width: 50%;
   margin: 15px auto;
 }
 
-.home-page__banner-text p {
-  font-size: 21px;
+.home-page__banner p {
+  text-align: center;
+  font-size: 22px;
   padding: 1em;
   width: 90%;
   margin: auto;
@@ -58,6 +60,8 @@
   position: fixed;
   width: 100%;
   height: 100%;
+  margin: auto;
+  overflow-y: scroll;
 }
 
 .home-page__social-links {
