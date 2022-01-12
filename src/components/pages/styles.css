@@ -1,3 +1,5 @@
+/* Home page styles */
+
 .home-page__avatar {
   padding-top: 5em;
   border-radius: 30%;
@@ -70,4 +72,87 @@
   color: white;
   font-size: 5em;
   padding: 8px;
+}
+
+/* Contact page styles */
+
+.contact-page__afew-about-me {
+  font-family: 'Source Code Pro', sans-serif;
+  font-weight: bolder;
+  margin: 15px;
+}
+
+.contact-page__body {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  margin: auto;
+  justify-content: center;
+  padding-top: 2em;
+  overflow-y: scroll;
+  background: #FEAC5E;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #4BC0C8, #C779D0, #FEAC5E);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #4BC0C8, #C779D0, #FEAC5E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.contact-page__body-grid {
+  width: 80%;
+  margin-top: 40px !important;
+  margin-bottom: 20px !important;
+  text-align: center;
+  justify-content: center;
+  background: white;
+  color: black;
+  border-radius: 20px;
+}
+
+.contact-page__body-grid h3 {
+  font-family: 'Source Code Pro', sans-serif;
+  font-weight: bolder;
+}
+
+.contact-page__body-grid hr {
+  border-top: 4px dashed black;
+  width: 60%;
+  margin: auto;
+}
+
+.contact-page__body-grid img {
+  width: 250px;
+  height: 250px;
+  border: 1px solid lightgrey;
+  border-radius: 10%;
+}
+
+.contact-page__icon {
+  font-size: 3em;
+}
+
+.contact-page__icon.fa-envelope-square {
+  color: #b31d33 !important;
+}
+
+.contact-page__icon.fa-linkedin-square {
+  color: #2e9aff;
+}
+
+.contact-page__icon.fa-envelope-square {
+  color: #0b0d0d;
+}
+
+.contact-page__contact-list .mdl-list__item a {
+  text-decoration: none;
+  color: black;
+}
+
+.contact-page__contact-list .mdl-list__item--three-line {
+  height: 110px;
+}
+
+.contact-page__list-item-text {
+  font-family: 'Source Code Pro', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  font-size: calc(0.9vw + 0.7vh);
+  margin: 10px;
 }
