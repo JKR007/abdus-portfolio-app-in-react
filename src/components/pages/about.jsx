@@ -10,90 +10,90 @@ export const About = () => {
         <Cell col={4} className='about-page__left-cell' shadow={3}>
           <h3 className='about-page__left-cell-title'>Skills</h3>
           <Grid className='about-page__left-cell-grid'>
-            <Cell col={3}>
+            <Cell col={4}>
               <img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original-wordmark.svg' alt='ruby-lang' />
             </Cell>
-            <Cell col={3}>
+            <Cell col={4}>
               <img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg' alt='c-lang' />
             </Cell>
-            <Cell col={3}>
+            <Cell col={4}>
               <img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original-wordmark.svg' alt='java-lang' />
             </Cell>
           </Grid>
           <Grid className='about-page__left-cell-grid'>
-            <Cell col={3}>
+            <Cell col={4}>
               <img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg' alt='js-script-lang' />
             </Cell>
-            <Cell col={3}>
+            <Cell col={4}>
               <img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rails/rails-original-wordmark.svg' alt='ruby-on-rails' />
             </Cell>
-            <Cell col={3}>
+            <Cell col={4}>
               <img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg' alt='node-script' />
             </Cell>
           </Grid>
           <Grid className='about-page__left-cell-grid'>
-            <Cell col={3}>
+            <Cell col={4}>
               <img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg' alt='react-js' />
             </Cell>
-            <Cell col={3}>
+            <Cell col={4}>
               <img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg' alt='redux-js' />
             </Cell>
-            <Cell col={3}>
+            <Cell col={4}>
               <img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jquery/jquery-plain-wordmark.svg' alt='jquery' />
             </Cell>
           </Grid>
           <Grid className='about-page__left-cell-grid'>
-            <Cell col={3}>
+            <Cell col={4}>
               <img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/coffeescript/coffeescript-original-wordmark.svg' alt='coffeescript-js' />
             </Cell>
-            <Cell col={3}>
+            <Cell col={4}>
               <img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-plain-wordmark.svg' alt='bootstrap-js' />
             </Cell>
-            <Cell col={3}>
+            <Cell col={4}>
               <img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg' alt='sass' />
             </Cell>
           </Grid>
           <Grid className='about-page__left-cell-grid'>
-            <Cell col={3}>
+            <Cell col={4}>
               <img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain-wordmark.svg' alt='cascaded-style-sheets' />
             </Cell>
-            <Cell col={3}>
+            <Cell col={4}>
               <img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain-wordmark.svg' alt='html' />
             </Cell>
-            <Cell col={3}>
+            <Cell col={4}>
               <img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-plain-wordmark.svg' alt='postgresql' />
             </Cell>
           </Grid>
           <Grid className='about-page__left-cell-grid'>
-            <Cell col={3}>
+            <Cell col={4}>
               <img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg' alt='mysql' />
             </Cell>
-            <Cell col={3}>
+            <Cell col={4}>
               <img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original-wordmark.svg' alt='mongodb' />
             </Cell>
-            <Cell col={3}>
+            <Cell col={4}>
               <img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original-wordmark.svg' alt='redis' />
             </Cell>
           </Grid>
           <Grid className='about-page__left-cell-grid'>
-            <Cell col={3}>
+            <Cell col={4}>
               <img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-plain-wordmark.svg' alt='git' />
             </Cell>
-            <Cell col={3}>
+            <Cell col={4}>
               <img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg' alt='git-hub' />
             </Cell>
-            <Cell col={3}>
+            <Cell col={4}>
               <img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/webpack/webpack-original-wordmark.svg' alt='webpack' />
             </Cell>
           </Grid>
           <Grid className='about-page__left-cell-grid'>
-            <Cell col={3}>
+            <Cell col={4}>
               <img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-plain-wordmark.svg' alt='docker' />
             </Cell>
-            <Cell col={3}>
+            <Cell col={4}>
               <img src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg' alt='aws' />
             </Cell>
-            <Cell col={3}>
+            <Cell col={4}>
               <p>And more ...</p>
             </Cell>
           </Grid>
