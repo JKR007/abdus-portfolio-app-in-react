@@ -160,3 +160,64 @@
   font-size: calc(0.9vw + 0.7vh);
   margin: 10px;
 }
+
+/* About Page Styles */
+
+.about-page__grid {
+  width: 90%;
+  height: 100%;
+  min-height: 1000px;
+}
+
+.about-page__left-cell {
+  background: #ededed !important;
+}
+
+.about-page__left-cell-grid .mdl-cell {
+  margin: 25px !important;
+  background: whitesmoke !important;
+}
+
+.about-page__left-cell-grid .mdl-cell p{
+  text-align: center;
+  padding: 30px 2px;
+  font-family: 'Source Code Pro', sans-serif;
+  font-weight: bold !important;
+}
+
+.about-page__left-cell-title {
+  margin: 20px;
+  text-align: center;
+  font-family: 'Source Code Pro', sans-serif;
+  font-weight: bold;
+  font-size: 4em;
+}
+
+.about-page__right-cell {
+  background: #ededed !important;
+  padding: 10px
+}
+
+.about-page__right-cell-grid {
+  width: 95%;
+  margin: 20px;
+  padding: 10px;
+  background-color: whitesmoke;
+  font-family: 'Source Code Pro', sans-serif;
+}
+
+.about-page__right-cell-grid .left-cell p {
+  font-weight: bold !important;
+  line-height: 110%;
+  font-size: 16px;
+  border-right: 1px solid whitesmoke;
+}
+
+.about-page__right-cell-grid .left-cell {
+  border-right: 1px solid #ededed;
+}
+
+.about-page__right-cell-grid .right-cell p {
+  font-size: 15px;
+  font-weight: bolder !important;
+}

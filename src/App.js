@@ -9,7 +9,7 @@ function App() {
   return (
     <div className='demo-big-content'>
       <Layout>
-        <Header className='layout-header' title={<Link class='layout-header__title' to='/'>AbduQahhor</Link>} scroll>
+        <Header className='layout-header' title={<Link className='layout-header__title' to='/'>AbduQahhor</Link>} scroll>
           <Navigation>
             <a href='/'>Home</a>
             <a href='/about'>About Me</a>
