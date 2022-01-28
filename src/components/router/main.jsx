@@ -5,9 +5,9 @@ import { Home, About, Contact } from '../pages';
 export const Main = () => {
   return (
     <Routes>
-      <Route exact path='/' element={<Home />} />
-      <Route path='/about' element={<About />} />
-      <Route path='/contact' element={<Contact />} />
+      <Route exact path='/abdus-portfolio-app-in-react' element={<Home />} />
+      <Route path='/abdus-portfolio-app-in-react/about' element={<About />} />
+      <Route path='/abdus-portfolio-app-in-react/contact' element={<Contact />} />
     </Routes>
   )
 }
