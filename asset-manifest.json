@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/abdus-portfolio-app-in-react/static/css/main.1f6a7c50.css",
-    "main.js": "/abdus-portfolio-app-in-react/static/js/main.dc3e323d.js",
+    "main.js": "/abdus-portfolio-app-in-react/static/js/main.4f814da5.js",
     "static/js/787.f54079bb.chunk.js": "/abdus-portfolio-app-in-react/static/js/787.f54079bb.chunk.js",
     "static/media/avatar.jpeg": "/abdus-portfolio-app-in-react/static/media/avatar.97f3067ffc0a5b359152.jpeg",
     "index.html": "/abdus-portfolio-app-in-react/index.html",
     "main.1f6a7c50.css.map": "/abdus-portfolio-app-in-react/static/css/main.1f6a7c50.css.map",
-    "main.dc3e323d.js.map": "/abdus-portfolio-app-in-react/static/js/main.dc3e323d.js.map",
+    "main.4f814da5.js.map": "/abdus-portfolio-app-in-react/static/js/main.4f814da5.js.map",
     "787.f54079bb.chunk.js.map": "/abdus-portfolio-app-in-react/static/js/787.f54079bb.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1f6a7c50.css",
-    "static/js/main.dc3e323d.js"
+    "static/js/main.4f814da5.js"
   ]
 }
