@@ -9,18 +9,18 @@ function App() {
   return (
     <div className='demo-big-content'>
       <Layout>
-        <Header className='layout-header' title={<Link className='layout-header__title' to='/abdus-portfolio-app-in-react'>AbduQahhor</Link>} scroll>
+        <Header className='layout-header' title={<Link className='layout-header__title' to='/'>AbduQahhor</Link>} scroll>
           <Navigation>
-            <Link to='/abdus-portfolio-app-in-react'>Home</Link>
-            <Link to='/abdus-portfolio-app-in-react/about'>About Me</Link>
-            <Link to='/abdus-portfolio-app-in-react/contact'>Contact</Link>
+            <Link to='/'>Home</Link>
+            <Link to='/about'>About Me</Link>
+            <Link to='/contact'>Contact</Link>
           </Navigation>
         </Header>
         <Drawer title='AbduQahhor'>
           <Navigation>
-            <Link to='/abdus-portfolio-app-in-react'>Home</Link>
-            <Link to='/abdus-portfolio-app-in-react/about'>About Me</Link>
-            <Link to='/abdus-portfolio-app-in-react/contact'>Contact</Link>
+            <Link to='/'>Home</Link>
+            <Link to='/about'>About Me</Link>
+            <Link to='/contact'>Contact</Link>
           </Navigation>
         </Drawer>
         <Content>
